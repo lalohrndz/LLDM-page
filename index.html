@@ -16,22 +16,24 @@
 
 <body>
     <!--Navegation bar-->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">
-                <img src="Assets/img/logofalso.png" style="width :50%;">
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down" id="nav-items">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="servicios.html">Áreas de servicio</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">
+                    <img src="Assets/img/logofalso.png" style="width :50%;">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down" id="nav-items">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="servicios.html">Áreas de servicio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!--Navegation bar mobile-->
     <ul class="sidenav" id="mobile-demo">
@@ -56,12 +58,118 @@
 
     <!--Main page-->
     <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil corporis illo voluptatum magnam
-            suscipit facilis deleniti fugit, amet quisquam officiis adipisci incidunt autem labore dolores ducimus
-            consectetur maxime! Exercitationem.
-            Vero omnis molestiae atque possimus. Omnis ex, dignissimos, sequi doloremque recusandae nisi maiores et
-            magnam dicta rerum inventore tenetur voluptate explicabo similique assumenda labore perferendis minus
-            laborum voluptatum modi eos!</p>
+        <!--Page Container-->
+        <div class="container">
+            <!--First section-->
+            <section id="first-section">
+                <div class="row">
+                    <div class="SolucionesLLDM-text col s12 m6 l6">
+                        <h5>Soluciones juridicas LLDM</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est veritatis inventore nobis
+                            sapiente
+                            architecto perferendis quos natus magni itaque, consequatur in, quis, iste dolorem at esse
+                            quia
+                            porro. Dolorum, numquam.</p>
+                    </div>
+                    <aside>
+                        <div class="col s12 m6 l6">
+                            <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <!--Second section-->
+            <section id="second-section">
+                <div class="row">
+                    <div class="SolucionesLLDM-text col s12 m12 l12">
+                        <h5>Con nosotros encontrarás</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est veritatis inventore nobis
+                            sapiente
+                            architecto perferendis quos natus magni itaque, consequatur in, quis, iste dolorem at esse
+                            quia
+                            porro. Dolorum, numquam.</p>
+                    </div>
+                    <aside>
+                        <div class="col s12 m12 l12" id="img-con-nosotros">
+                            <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <!--thirth section-->
+            <section id="thirth-section">
+                <h5>Nuestras Áreas de servicio</h5>
+                <div class="areas-de-servicio row">
+                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                </div>
+                <div class="areas-de-servicio row">
+                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
+                </div>
+            </section>
+            <!--fourth section-->
+            <section id="fourth-section">
+                <h4>Contactanos</h4>
+                <div class="row">
+                    <p class="col s12 m6 l5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet
+                        quas in animi iure
+                        enim
+                        aperiam accusamus nihil. Est, sequi necessitatibus! Commodi ipsum nihil labore dicta cumque quae
+                        sed
+                        hic.</p>
+                </div>
+                <div class="row">
+                    <div class="col s12 m8 l9">
+                        <form action="" method="post">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                    <label for="first_name">Nombre completo</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Placeholder" id="first_name" type="email" class="validate">
+                                    <label for="first_name">Correo de contacto</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Placeholder" id="first_name" type="email" class="validate">
+                                    <label for="first_name">Número de contacto</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s8">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Textarea</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a class="waves-effect btn">Enviar</a>
+                            </div>
+                        </form>
+                    </div>
+                    <aside>
+                        <div class="col s12 m4 l3">
+                            <h6>Horarios de atención</h6>
+                            <table>
+                                <tr>
+                                    <td>Lun - Vie</td>
+                                    <td>10:00 A.M. - 07:30 P.M.</td>
+                                </tr>
+                                <tr>
+                                    <td>Sab</td>
+                                    <td>10:00 A.M. - 12:30 P.M.</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </div>
     </main>
 
     <!--Footer page-->
@@ -122,7 +230,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script> M.AutoInit();</script>
     <script>
-
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.carousel');
             var instances = M.Carousel.init(elems, {

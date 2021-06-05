@@ -12,8 +12,36 @@ nav .nav-wrapper {
   background-color: #1d2740;
 }
 
+section {
+  margin-top: 2em;
+}
+
+section aside div img {
+  width: 30em;
+}
+
+.SolucionesLLDM-text {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+#img-con-nosotros {
+  display: flex;
+  justify-content: center;
+}
+
+.areas-de-servicio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.areas-de-servicio img {
+  width: 15em;
+}
+
 footer.page-footer {
   background-color: #1d2740;
+  margin-top: 3em;
 }
 
 #nav-items li a:hover {
