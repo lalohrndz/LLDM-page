@@ -7,11 +7,16 @@ body {
 main {
   flex: 1 0 auto;
 }
-
+/*NavBar*/
 nav .nav-wrapper {
   background-color: #1d2740;
 }
 
+#nav-items li a:hover {
+  color: gold;
+}
+
+/*Main content*/
 section {
   margin-top: 2em;
 }
@@ -32,18 +37,26 @@ section aside div img {
 
 .areas-de-servicio {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .areas-de-servicio img {
+  margin-top: 0.5em;
   width: 15em;
 }
 
+/*Footer*/
 footer.page-footer {
   background-color: #1d2740;
   margin-top: 3em;
 }
 
-#nav-items li a:hover {
-  color: gold;
+/*Media queriies*/
+@media screen and (max-width: 760px) {
+  .areas-de-servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

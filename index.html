@@ -110,6 +110,7 @@
                 </div>
             </section>
             <!--fourth section-->
+            <!--Contact Form-->
             <section id="fourth-section">
                 <h4>Contactanos</h4>
                 <div class="row">
@@ -120,35 +121,39 @@
                         sed
                         hic.</p>
                 </div>
+                <!--Contact Form HTML-->
                 <div class="row">
                     <div class="col s12 m8 l9">
                         <form action="" method="post">
                             <div class="row">
-                                <div class="input-field col s6">
-                                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                <div class="input-field col s12 m6 l9">
+                                    <input placeholder="nombre completo" id="first_name" type="text" class="validate">
                                     <label for="first_name">Nombre completo</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
-                                    <input placeholder="Placeholder" id="first_name" type="email" class="validate">
+                                <div class="input-field col s12 m6 l9">
+                                    <input placeholder="correo de contacto" id="email" type="email" class="validate">
                                     <label for="first_name">Correo de contacto</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6">
-                                    <input placeholder="Placeholder" id="first_name" type="email" class="validate">
+                                <div class="input-field col s12 m6 l9">
+                                    <input placeholder="numero de contacto" id="first_name" type="number" min="10"
+                                        max="10">
                                     <label for="first_name">Número de contacto</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s8">
+                                <div class="input-field col s12 m8 l12">
                                     <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                    <label for="textarea1">Textarea</label>
+                                    <label for="textarea1">Comentarios</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <a class="waves-effect btn">Enviar</a>
+                                <button class="btn waves-effect" type="submit" name="action">
+                                    Enviar
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -176,10 +181,10 @@
     <footer class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col s12 m3 l3">
+                <div class="col s12 m2 l2">
                     <img src="Assets/img/logofalso.png" style="width :50%;">
                 </div>
-                <div class="col s12 m3 l3">
+                <div class="col s12 m6 l6">
                     <h5>Información de contacto</h5>
                     <ul>
                         <li class="contacto-footer-item">
@@ -193,7 +198,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col s12 m3 l3">
+                <div class="col s12 m2 l2">
                     <h5>Sitio</h5>
                     <ul>
                         <li class="footer-site-item">Inicio</li>
@@ -202,7 +207,7 @@
                         <li class="footer-site-item">Área de servicio</li>
                     </ul>
                 </div>
-                <div class="col s12 m3 l3">
+                <div class="col s12 m2 l2">
                     <h5>Nuestras Redes</h5>
                     <ul>
                         <li>
@@ -221,8 +226,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2014 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                © 2021 Copyright
             </div>
         </div>
     </footer>
@@ -236,6 +240,11 @@
                 duration: 200,
                 indicators: true
             });
+        });
+    </script>
+    <script>
+        window.addEventListener('resize', function () {
+            location.reload();
         });
     </script>
 </body>
