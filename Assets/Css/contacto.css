@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+/*NavBar*/
+nav .nav-wrapper {
+  background-color: #1d2740;
+}
+
+#nav-items li a:hover {
+  color: gold;
+}
+
+/*Main content*/
+
+.img-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+#fifth-section article {
+  display: flex;
+  align-items: center;
+}
+
+/*Footer*/
+footer.page-footer {
+  background-color: #1d2740;
+  margin-top: 3em;
+}

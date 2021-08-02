@@ -8,10 +8,10 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Other CSS Styles hardcoded-->
-    <link rel="stylesheet" href="Assets/Css/index.css">
+    <link rel="stylesheet" href="Assets/Css/servicios.css">
     <!--Material Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Inicio - LLDM</title>
+    <title>Servicios - LLDM</title>
 </head>
 
 <body>
@@ -34,7 +34,6 @@
             </div>
         </nav>
     </header>
-
     <!--Navegation bar mobile-->
     <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Inicio</a></li>
@@ -43,75 +42,11 @@
         <li><a href="contacto.html">Contacto</a></li>
     </ul>
 
-    <!--Carousel-->
-    <div class="carousel carousel-slider">
-        <a href="#" class="carousel-item">
-            <img src="Assets/img/carousel_1.jpg" alt="Carousel Image numer one">
-        </a>
-        <a href="#" class="carousel-item">
-            <img src="Assets/img/carousel_2.jpg" alt="Carousel Image numer two">
-        </a>
-        <a href="#" class="carousel-item">
-            <img src="Assets/img/carousel_3.jpg" alt="Carousel Image numer three">
-        </a>
-    </div>
-
-    <!--Main page-->
-    <main>
-        <!--Page Container-->
-        <div class="container">
-            <!--First section-->
-            <section id="first-section">
-                <div class="row">
-                    <div class="SolucionesLLDM-text col s12 m6 l6">
-                        <h5>Soluciones juridicas LLDM</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est veritatis inventore nobis
-                            sapiente
-                            architecto perferendis quos natus magni itaque, consequatur in, quis, iste dolorem at esse
-                            quia
-                            porro. Dolorum, numquam.</p>
-                    </div>
-                    <aside>
-                        <div class="col s12 m6 l6">
-                            <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                        </div>
-                    </aside>
-                </div>
-            </section>
-            <!--Second section-->
-            <section id="second-section">
-                <div class="row">
-                    <div class="SolucionesLLDM-text col s12 m12 l12">
-                        <h5>Con nosotros encontrarás</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est veritatis inventore nobis
-                            sapiente
-                            architecto perferendis quos natus magni itaque, consequatur in, quis, iste dolorem at esse
-                            quia
-                            porro. Dolorum, numquam.</p>
-                    </div>
-                    <aside>
-                        <div class="col s12 m12 l12" id="img-con-nosotros">
-                            <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                        </div>
-                    </aside>
-                </div>
-            </section>
-            <!--thirth section-->
-            <section id="thirth-section">
-                <h5>Nuestras Áreas de servicio</h5>
-                <div class="areas-de-servicio row">
-                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                </div>
-                <div class="areas-de-servicio row">
-                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                    <img src="Assets/img/carousel_1.jpg" alt="Soluciones juridicas img" class="responsive-img">
-                </div>
-            </section>
-            <!--fourth section-->
+    <div class="container">
+        <!--Main page-->
+        <main>
             <!--Contact Form-->
-            <section id="fourth-section">
+            <section id="six-section">
                 <h4>Contactanos</h4>
                 <div class="row">
                     <p class="col s12 m6 l5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet
@@ -174,9 +109,8 @@
                     </aside>
                 </div>
             </section>
-        </div>
-    </main>
-
+        </main>
+    </div>
     <!--Footer page-->
     <footer class="page-footer">
         <div class="container">
@@ -233,15 +167,6 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script> M.AutoInit();</script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.carousel');
-            var instances = M.Carousel.init(elems, {
-                duration: 200,
-                indicators: true
-            });
-        });
-    </script>
     <script>
         window.addEventListener('resize', function () {
             location.reload();
