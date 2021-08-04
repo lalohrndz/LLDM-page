@@ -9,7 +9,11 @@ main {
 }
 /*NavBar*/
 nav .nav-wrapper {
-  background-color: #1d2740;
+  background-color: #ffffff;
+}
+
+#nav-items li a {
+  color: #1d2740;
 }
 
 #nav-items li a:hover {
