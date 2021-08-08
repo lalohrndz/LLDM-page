@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--WhatsApp icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Inicio - LLDM</title>
 </head>
 
@@ -62,6 +64,14 @@
 
     <!--Main page-->
     <main>
+        <!--WhatsApp button-->
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large green tooltipped" data-position="left" data-tooltip="Hablemos por WhatsApp"
+                href="https://wa.me/525510300455/?text=¡Hola!%20%20vengo%20de%20tu%20página%20web.%20Me%20gustaría%20platicar%20contigo."
+                target="_blank">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+        </div>
         <!--Page Container-->
         <div class="container">
             <!--First section-->
@@ -160,7 +170,7 @@
                 <!--Contact Form HTML-->
                 <div class="row">
                     <div class="col s12 m8 l9">
-                        <form action="" method="post">
+                        <form action="form.php" method="post">
                             <div class="row">
                                 <div class="input-field col s12 m6 l9">
                                     <input placeholder="nombre completo" id="first_name" type="text" class="validate">
@@ -169,21 +179,20 @@
                             </div>
                             <div class="row">
                                 <div class="input-field col s12 m6 l9">
-                                    <input placeholder="correo de contacto" id="email" type="email" class="validate">
+                                    <input placeholder="correo de contacto" id="Email" type="email" class="validate">
                                     <label for="first_name">Correo de contacto</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12 m6 l9">
-                                    <input placeholder="numero de contacto" id="first_name" type="number" min="10"
-                                        max="10">
-                                    <label for="first_name">N&uacutemero de contacto</label>
+                                    <input placeholder="numero de contacto" id="num_contacto" type="number" min="10">
+                                    <label for="num_contacto">N&uacutemero de contacto</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12 m8 l12">
-                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                    <label for="textarea1">Comentarios</label>
+                                    <textarea id="comentarios" class="materialize-textarea"></textarea>
+                                    <label for="comentarios">Comentarios</label>
                                 </div>
                             </div>
                             <div class="row">
